@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    color: rgb(255, 106, 58);
+font-family: Helvetica Now Display;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 2%;
+text-align: left;
+text-transform: uppercase;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    Width:1280px;
+    Height:745.41px;
+}
+img{
+    margin-left: 125px;
+    margin-top: 60px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 960px;
+    
+}
+a:hover{
+    color: orange;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
